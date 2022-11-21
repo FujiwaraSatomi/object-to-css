@@ -10,11 +10,11 @@ style.textContent = objectToCSS({
   body: {
     margin: 0,
   },
-  hr {
+  hr: {
     boxSizing: "content-box",
     height: 0,
     overflow: "visible",
-    borderTopWidth: "1px",
+    borderTopWidth: 1,
     margin: 0,
   },
   ".awesome-class-name > div": {
@@ -25,7 +25,7 @@ style.textContent = objectToCSS({
   "@keyframes rotate": {
     "100%": {
       transform: "rotate(360deg)",
-    }
+    },
   },
 });
 document.body.append(style);
