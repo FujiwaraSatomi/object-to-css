@@ -1,5 +1,4 @@
 function objectToCSS(styles, nested_lv = 0) {
-  console.log(nested_lv);
   String.prototype.toSnakeCase = function() {
     return this.replace(/[A-Z]/g, match => {
       return "-" + match.toLowerCase();
