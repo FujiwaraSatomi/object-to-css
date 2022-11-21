@@ -71,7 +71,7 @@ objectToCSS({
   }
 })
 ```
-This is not interpreted as css.
+This is not interpreted in css.
 ```js
 objectToCSS({
   "div:before": {
