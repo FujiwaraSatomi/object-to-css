@@ -49,7 +49,7 @@ document.body.append(style);
   .awesome-class-name > div {
     width: 35px;
     height: 35px;
-    animation: "rotate 1.0s infinite linear";
+    animation: rotate 1.0s infinite linear;
   }
   @keyframes rotate {
     100% {
